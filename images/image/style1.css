@@ -1,0 +1,121 @@
+/* Reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Home Section */
+#home {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.intro {
+  max-width: 600px;
+  margin: auto;
+}
+
+.intro h1 {
+  font-size: 2rem;
+}
+
+.intro p {
+  margin: 1rem 0;
+}
+
+/* Projects Section */
+#projects .project-cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-cards .card {
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  width: 200px;
+  text-align: center;
+}
+
+/* Skills Section */
+#skills .skills-list {
+  list-style: none;
+  text-align: center;
+}
+
+.skills-list li {
+  padding: 0.5rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 0.5rem;
+  display: inline-block;
+}
+
+/* Contact Section */
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: auto;
+}
+
+#contact form input, #contact form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+#contact form button {
+  align-self: flex-start;
+}
